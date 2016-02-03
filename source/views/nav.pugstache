@@ -1,0 +1,4 @@
+nav
+  {{#menu.get_items}}
+  a(href="{{link}}") {{title}}
+  {{/menu.get_items}}

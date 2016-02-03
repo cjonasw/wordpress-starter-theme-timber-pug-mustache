@@ -1,0 +1,17 @@
+{{>header}}
+
+{{#posts}}
+<h1><a href="{{permalink}}">{{title}}</a></h1>
+{{{get_preview}}}
+{{/posts}}
+
+footer.pagination
+  {{#pagination.prev}}
+  <a href="{{link}}">Newer</a>
+  {{/pagination.prev}}
+
+  {{#pagination.next}}
+  <a href="{{link}}">Older</a>
+  {{/pagination.next}}
+
+{{>footer}}

@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang='en'>
+head
+  <meta charset="utf-8">
+  <title>{{wp_title}}</title>
+  <link rel="stylesheet" type="text/css" href="{{theme.link}}/style.css" media="screen">
+  {{{wp_head}}}
+<body>
+
+header
+  a(href="{{site.url}}") {{site.name}}
+
+  {{>nav}}
